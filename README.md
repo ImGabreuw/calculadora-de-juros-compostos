@@ -4,9 +4,9 @@
 ![GitHub forks](https://img.shields.io/github/forks/ImGabreuw/calculadora-de-juros-compostos?style=for-the-badge)
 ![Github open issues](https://img.shields.io/github/issues/ImGabreuw/calculadora-de-juros-compostos?style=for-the-badge)
 
-![Demonstração](demo.png)
+![Demonstração](./docs/demo.png)
 
-> O projeto "calculadora de juros compostos" tem a função de facilitar simulações de rendimento de aplicações sob juros compostos.
+> O projeto "calculadora de juros compostos" é uma _CLI_ (Command Line Interface) que tem a função de facilitar simulações de rendimento de aplicações sob juros compostos.
 
 
 ## 💻 Pré-requisitos
@@ -21,8 +21,6 @@
 
 - Inquirer.js
 
-- Docker
-
 ## 🚀 Execução do projeto
 
 ```bash
@@ -32,11 +30,9 @@ $ git clone https://github.com/ImGabreuw/calculadora-de-juros-compostos.git
 # Navegar ao diretório do projeto
 $ cd ./calculadora-de-juros-compostos
 
-# Subir o container Docker
-$ docker-compose up
+# Rodar a aplicação
+$ npm run start
 ```
-
-Acessar: http://localhost:3000
 
 ## 📫 Contribuição
 

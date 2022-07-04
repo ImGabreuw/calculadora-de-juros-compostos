@@ -28,7 +28,7 @@ inquirer
 
     Montante: R$ ${amount.toFixed(2)}
     Valor investido: R$ ${initialValue.toFixed(2)}
-    Jutos: R$ ${(amount - initialValue).toFixed(2)}
+    Juros: R$ ${(amount - initialValue).toFixed(2)}
     `);
 })
     .catch((error) => console.log(error));
